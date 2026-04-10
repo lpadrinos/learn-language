@@ -111,7 +111,7 @@ export default function Progreso() {
   const miPct = Math.round((misPuntos / total) * 100)
 
   return (
-    <div className="page-with-tabs" style={{ overflow: 'auto', padding: '24px 16px' }}>
+    <div className="page-with-tabs" style={{ overflow: 'auto', paddingLeft: 16, paddingRight: 16, paddingBottom: 24 }}>
       <h1 style={{ fontFamily: 'var(--font-title)', fontSize: 24, marginBottom: 20 }}>Tu progreso</h1>
 
       {/* Toast logro nuevo */}

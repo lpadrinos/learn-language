@@ -10,7 +10,9 @@
       "Bash(python3 -m pip install Pillow --quiet)",
       "Bash(grep -l \"className=.*page\" src/pages/juegos/*.jsx)",
       "Bash(find src/pages -name \"*.jsx\" -exec grep -l \"className=.*page\"\"\" {})",
-      "Bash(grep -r \"className=\"\"page\"\"\" src/pages/*.jsx)"
+      "Bash(grep -r \"className=\"\"page\"\"\" src/pages/*.jsx)",
+      "Bash(grep -l \"padding: ''24px 16px''\" src/pages/*.jsx)",
+      "Bash(grep -n \"padding: ''24px 16px''\" src/pages/Progreso.jsx)"
     ]
   }
 }

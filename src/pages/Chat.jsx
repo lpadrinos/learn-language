@@ -169,7 +169,7 @@ export default function Chat() {
 
   if (!pareja) {
     return (
-      <div className="page-with-tabs" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 24, gap: 20 }}>
+      <div className="page-with-tabs" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', paddingLeft: 24, paddingRight: 24, paddingBottom: 24, gap: 20 }}>
         <div style={{ textAlign: 'center' }}>
           <p style={{ fontSize: 28, marginBottom: 8 }}>◆</p>
           <p style={{ color: 'var(--text-primary)', fontSize: 16, fontWeight: 600, marginBottom: 8 }}>Sin pareja aún</p>

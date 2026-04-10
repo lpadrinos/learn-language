@@ -38,7 +38,7 @@ export default function Perfil() {
   }
 
   return (
-    <div className="page-with-tabs" style={{ overflow: 'auto', padding: '24px 16px' }}>
+    <div className="page-with-tabs" style={{ overflow: 'auto', paddingLeft: 16, paddingRight: 16, paddingBottom: 24 }}>
       {/* Avatar + Name */}
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: 24 }}>
         <div style={styles.avatar}>
