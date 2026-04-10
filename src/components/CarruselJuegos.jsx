@@ -74,10 +74,6 @@ export default function CarruselJuegos() {
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
     >
-      <button onClick={prev} style={{ ...styles.btnNav, left: 12 }} title="Anterior">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2"><path d="M15 18l-6-6 6-6"/></svg>
-      </button>
-
       <div style={styles.track}>
         {JUEGOS.map((juego, i) => {
           const pos = getIndex(i)
@@ -136,10 +132,6 @@ export default function CarruselJuegos() {
           )
         })}
       </div>
-
-      <button onClick={next} style={{ ...styles.btnNav, right: 12 }} title="Siguiente">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2"><path d="M9 18l6-6-6-6"/></svg>
-      </button>
     </div>
   )
 }

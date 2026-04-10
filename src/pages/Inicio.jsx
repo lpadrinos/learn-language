@@ -7,7 +7,7 @@ export default function Inicio() {
   const fotoSize = 36
 
   return (
-    <div className="page-with-tabs" style={{ display: 'flex', flexDirection: 'column' }}>
+    <div className="page-with-tabs" style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
       {/* Header */}
       <div style={styles.header}>
         <div style={styles.headerSide}>
