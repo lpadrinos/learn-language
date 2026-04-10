@@ -62,6 +62,7 @@ img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  padding-top: max(12px, env(safe-area-inset-top));
 }
 
 .page-with-tabs {
@@ -71,7 +72,8 @@ img {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding-bottom: var(--tab-bar-height);
+  padding-top: max(12px, env(safe-area-inset-top));
+  padding-bottom: max(var(--tab-bar-height), env(safe-area-inset-bottom));
   overflow: hidden;
 }
 
