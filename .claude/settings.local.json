@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npx vite:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(grep -r \"🏠\\\\|👁️\\\\|✉️\\\\|👤\\\\|🌍\\\\|🇪🇸\\\\|🇳🇱\\\\|↔\\\\|↙\\\\|←\\\\|→\\\\|⏰\" \"C:\\\\Users\\\\LEC\\\\claude code\\\\Ll.Learn Language\\\\src\\\\pages\"\" --include=\"*.jsx \")",
+      "Bash(find \"C:\\\\Users\\\\LEC\\\\claude code\\\\Ll.Learn Language\\\\src\\\\pages\"\" -name \"*.jsx \" -type f)"
+    ]
+  }
+}
